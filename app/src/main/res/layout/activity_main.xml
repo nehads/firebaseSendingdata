@@ -19,7 +19,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_height="wrap_content"
                 android:hint="@string/fare"
-                android:inputType="textCapWords"
+                android:inputType="number"
                 android:maxLines="1" />
 
             <EditText
@@ -29,7 +29,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_height="wrap_content"
                 android:hint="@string/name"
-                android:inputType="textEmailAddress"
+                android:inputType="text"
                 android:maxLines="1" />
 
         <Button

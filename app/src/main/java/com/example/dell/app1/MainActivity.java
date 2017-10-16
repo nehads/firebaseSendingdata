@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 if (TextUtils.isEmpty(userId)) {
                     createUser(fare, name);
 //                } else {
-//                    updateUser(fare, email);
+//                    updateUser(fare, name);
 //                }
                 }
                 Toast.makeText(getApplicationContext(), "Data sent", Toast.LENGTH_SHORT).show();
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 //
 //                Log.e(TAG, "User data is changed!" + user.fare + ", " + user.name);
 //
-//                // Display newly updated name and email
+//                // Display newly updated fare and name
 //              //  txtDetails.setText(user.fare + ", " + user.name);
 //
 //                // clear edit text
@@ -145,13 +145,13 @@ public class MainActivity extends AppCompatActivity {
 //        });
 //    }
 
-//    private void updateUser(String fare, String email) {
+//    private void updateUser(String fare, String name) {
 //        // updating the user via child nodes
 //        if (!TextUtils.isEmpty(fare))
 //            mFirebaseDatabase.child(userId).child("fare").setValue(fare);
 //
-//        if (!TextUtils.isEmpty(email))
-//            mFirebaseDatabase.child(userId).child("email").setValue(email);
+//        if (!TextUtils.isEmpty(name))
+//            mFirebaseDatabase.child(userId).child("name").setValue(name);
 //    }
 }
 
