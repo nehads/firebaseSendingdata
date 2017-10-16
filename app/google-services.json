@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "344570403159",
+    "firebase_url": "https://app1-d4319.firebaseio.com",
+    "project_id": "app1-d4319",
+    "storage_bucket": "app1-d4319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344570403159:android:0cdf6727c8e6fab8",
+        "android_client_info": {
+          "package_name": "com.example.dell.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344570403159-to30j9pvtsuf454qn5pgj5otbu192ft9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ffCDql_OHXBCN-fP3rgh1hjvuIan7V4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
